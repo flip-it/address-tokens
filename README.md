@@ -12,11 +12,11 @@ Based on [OpenCage Data](https://github.com/OpenCageData/address-formatting/) te
 Create token files in Node for your project, and use them in the browser.
 
 ```sh
-npm i -D @flip-it/address-tokens
+npm i -D address-tokens
 ```
 
 ````js
-const { tokens, template } = require('@flip-it/address-tokens');
+const { tokens, template } = require('address-tokens');
 const input = {
   attention: "{firstName} {lastName}",
   road: "{addressLine1}\n{addressLine2}",
