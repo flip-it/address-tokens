@@ -15,7 +15,7 @@ Create token files in Node for your project, and use them in the browser.
 npm i -D address-tokens
 ```
 
-````js
+```js
 const { tokens, template } = require('address-tokens');
 const input = {
   attention: "{firstName} {lastName}",
@@ -68,7 +68,9 @@ template(input, "US");
 {country}`
 */
 
-## Development & Tests
+```
+
+## Development and Tests
 
 ```sh
 $ git clone https://github.com/flip-it/address-tokens.git
@@ -76,7 +78,7 @@ $ cd address-tokens
 $ npm run pull-submodules
 $ npm install
 $ npm test
-````
+```
 
 # Acknowledgments
 
