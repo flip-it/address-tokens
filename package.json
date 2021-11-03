@@ -10,8 +10,9 @@
     "test:watch": "jest --watch --coverage",
     "clean": "rimraf dist && rimraf src/templates/*.json",
     "pull-submodules": "git submodule init && git submodule update",
-    "prepare-templates": "node scripts/prepare-templates.ts",
-    "build": "rollup -c rollup.config.js"
+    "make-templates": "node scripts/make-templates.ts",
+    "build": "rollup -c rollup.config.js",
+    "postinstall": "npm run make-templates"
   },
   "publishConfig": {
     "access": "public"

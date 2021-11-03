@@ -75,7 +75,6 @@ $ git clone https://github.com/flip-it/address-tokens.git
 $ cd address-tokens
 $ npm run pull-submodules
 $ npm install
-$ npm run prepare-templates
 $ npm test
 ````
 
