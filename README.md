@@ -81,3 +81,8 @@ $ npm test
 # Acknowledgments
 
 Heavily inspired by [JS Address formatter](https://github.com/fragaria/address-formatter).
+
+[package-badge]: https://img.shields.io/npm/v/address-tokens.svg?style=flat
+[package-url]: https://yarnpkg.com/en/package/address-tokens
+[ci-badge]: https://github.com/flip-it/address-tokens/workflows/tests/badge.svg
+[ci-url]: https://github.com/flip-it/address-tokens/actions

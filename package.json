@@ -8,7 +8,8 @@
     "dist/"
   ],
   "scripts": {
-    "lint": "eslint src",
+    "lint": "npm run lint:report --fix",
+    "lint:report": "eslint src",
     "test": "rimraf coverage && jest --coverage",
     "test:ci": "rimraf coverage && jest --coverage --ci",
     "test:watch": "jest --watch --coverage",

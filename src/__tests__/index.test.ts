@@ -35,13 +35,7 @@ describe("tokens array", () => {
     expect(() => tokens(input, "")).toThrow();
   });
 });
-const x = [
-  ["firstName", "lastName"],
-  ["addressLine1"],
-  ["addressLine2"],
-  ["city", "region", "postalCode"],
-  ["country"],
-];
+
 describe("string template", () => {
   test("SE", () => {
     expect(template(input, "SE")).toMatchSnapshot();
