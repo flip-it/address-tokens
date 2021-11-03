@@ -1,5 +1,6 @@
 import Mustache from "mustache";
 import templates from "./templates/templates.json";
+import countryCodes from "./templates/countryCodes.json";
 
 type Input = Record<string, string>;
 
@@ -70,13 +71,16 @@ const renderTemplate = (input: Input, countryCode: string) => {
   return Mustache.render(addressTemplate, templateInput);
 };
 
+
 export const template = (input: Input, countryCode: string): string =>
-  cleanupRender(renderTemplate(input, countryCode));
+cleanupRender(renderTemplate(input, countryCode));
 
 export const tokens = (input: Input, countryCode: string) =>
-  renderTemplate(input, countryCode)
-    .split("\n")
-    .map((l) =>
-      l.match(/\{\w+\}/g)?.map((token) => token.substring(1, token.length - 1))
-    )
-    .filter((s) => Boolean(s));
+renderTemplate(input, countryCode)
+.split("\n")
+.map((l) =>
+l.match(/\{\w+\}/g)?.map((token) => token.substring(1, token.length - 1))
+)
+.filter((s) => Boolean(s));
+
+export { countryCodes };
