@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`string template AX 1`] = `
+"{firstName} {lastName}
+{addressLine1}
+{addressLine2}
+{postalCode} {city}
+{country}"
+`;
+
+exports[`string template SE 1`] = `
+"{firstName} {lastName}
+{addressLine1}
+{addressLine2}
+{postalCode} {city}
+{country}"
+`;
+
+exports[`string template US 1`] = `
+"{firstName} {lastName}
+{addressLine1}
+{addressLine2}
+{city}, {region} {postalCode}
+{country}"
+`;
+
+exports[`string template no input 1`] = `""`;
+
+exports[`tokens array AX 1`] = `
+Array [
+  Array [
+    "firstName",
+    "lastName",
+  ],
+  Array [
+    "addressLine1",
+  ],
+  Array [
+    "addressLine2",
+  ],
+  Array [
+    "postalCode",
+    "city",
+  ],
+  Array [
+    "country",
+  ],
+]
+`;
+
+exports[`tokens array SE 1`] = `
+Array [
+  Array [
+    "firstName",
+    "lastName",
+  ],
+  Array [
+    "addressLine1",
+  ],
+  Array [
+    "addressLine2",
+  ],
+  Array [
+    "postalCode",
+    "city",
+  ],
+  Array [
+    "country",
+  ],
+]
+`;
+
+exports[`tokens array US 1`] = `
+Array [
+  Array [
+    "firstName",
+    "lastName",
+  ],
+  Array [
+    "addressLine1",
+  ],
+  Array [
+    "addressLine2",
+  ],
+  Array [
+    "city",
+    "region",
+    "postalCode",
+  ],
+  Array [
+    "country",
+  ],
+]
+`;
+
+exports[`tokens array no input 1`] = `Array []`;
