@@ -27,70 +27,70 @@ exports[`string template US 1`] = `
 exports[`string template no input 1`] = `""`;
 
 exports[`tokens array AX 1`] = `
-Array [
-  Array [
+[
+  [
     "firstName",
     "lastName",
   ],
-  Array [
+  [
     "addressLine1",
   ],
-  Array [
+  [
     "addressLine2",
   ],
-  Array [
+  [
     "postalCode",
     "city",
   ],
-  Array [
+  [
     "country",
   ],
 ]
 `;
 
 exports[`tokens array SE 1`] = `
-Array [
-  Array [
+[
+  [
     "firstName",
     "lastName",
   ],
-  Array [
+  [
     "addressLine1",
   ],
-  Array [
+  [
     "addressLine2",
   ],
-  Array [
+  [
     "postalCode",
     "city",
   ],
-  Array [
+  [
     "country",
   ],
 ]
 `;
 
 exports[`tokens array US 1`] = `
-Array [
-  Array [
+[
+  [
     "firstName",
     "lastName",
   ],
-  Array [
+  [
     "addressLine1",
   ],
-  Array [
+  [
     "addressLine2",
   ],
-  Array [
+  [
     "city",
     "region",
     "postalCode",
   ],
-  Array [
+  [
     "country",
   ],
 ]
 `;
 
-exports[`tokens array no input 1`] = `Array []`;
+exports[`tokens array no input 1`] = `[]`;
